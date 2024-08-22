@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, 
+.feet{
+    background-color: #1a1d26; /* Dark background color */
+    padding: 15px 20px;
+    font-family: Roboto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 15px 20px; /* Make this match the header padding */
+}
+.logo{
+    color:  #d1d5da;
+    font-weight: bold;
+}
+.header-links a {
+    color: #d1d5da;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.sub-header .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    padding: 40px;
+    background-color: #2c2f38;
+    border-radius: 8px;
+}
+.image-placeholder{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #2c2f38;
+    justify-content: center;
+}
+.sub-header .item h1{
+    color:  #d1d5da;
+    font-weight: bold;
+}
+.sub-header .item h4{
+    color:  #a9adb4;
+    font-weight: bold;
+}
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sub-header .item,
+.image-placeholder {
+    flex: 1; /* Make both elements take equal width */
+    margin: 0 20px; /* Add some margin to prevent elements from being too close */
+}
+.tronco h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.boxes{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: auto 600px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid blue;
+    border-radius: 15px;
+  }
+.quote{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #dee2e6;
+    padding: 100px;
+    margin: 50px auto;
+}
+.quote p{
+    font-size: x-large;
+    font-style: italic;
+    margin: auto 600px;
+    font-family: Arial;
+}
+.quote .signature{
+    padding: 20px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
+.ad{
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff;
+    margin: 60px 600px;
+}
+.ad .item{
+    color: #dee2e6;
+}
+.ad h4{
+    font-weight: 700;
+}
+.ad button.cta-button{
+    border: 2px solid #d1d5da;
+    padding: 10px 20px; /* Padding to make the button look good */
+    background-color: transparent;
+    color: #d1d5da;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; /* Keeps the button from stretching */
+}
+.feet h6{
+    text-align: center;
+    color: #dee2e6;
+}
